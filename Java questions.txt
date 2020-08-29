@@ -136,7 +136,24 @@ class Anagarams{
        }
 
 
-https://www.javainterviewpoint.com/anagram-program-in-java/
+epam
+
+stack overflow error
+
+
+synchronised and concurrent hashmap
+
+
+what is stackoverflowerror and when it will come
+
+
+fail fast and fail safe
+
+
+sort 0 and 1
+
+recursion for fibonacci
+
 
 
 1. Decomposition Patterns
@@ -163,19 +180,4 @@ https://www.javainterviewpoint.com/anagram-program-in-java/
   c. Circuit Breaker Pattern
   d. Blue-Green Deployment Pattern
 
-stack overflow error
-
-
-synchronised and concurrent hashmap
-
-
-what is stackoverflowerror and when it will come
-
-
-fail fast and fail safe
-
-
-sort 0 and 1
-
-recursion for fibonacci
 
