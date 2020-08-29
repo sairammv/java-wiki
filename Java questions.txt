@@ -1,5 +1,22 @@
 Java questions
 
+
+Blume global
+
+Is it possible to store same key with different values in Hashmap
+
+How do we improve performance of collections
+
+Why scp
+
+Hibernate commit evict flush transaction property isolation and progagataion
+
+Is really parallel streams applicable for both synchronised and non synchronised java collections
+
+In which instances we are creating prototype scopes in spring rather than singleton
+
+
+
 customer - id,name,location,address,contact,email,noOfEmployees,mobileno
 
 1,jondoe
@@ -24,7 +41,7 @@ that shows all customers and their order amount
 
 
 select * from customers c, order o, product p
-  where o.productid 
+  where o.productid
 
 
 
@@ -60,7 +77,7 @@ class Anagarams{
 
         if()
 
-         
+
     }
 
 
@@ -118,20 +135,6 @@ class Anagarams{
 
 
        }
-
-
-Blume global
-
-Is it possible to store same key with different values in Hashmat
-
-How do we improve performance of collections 
-
-Why scp
-
-Hibernate commit evict flush transaction property isolation and progagataion
-
-Is really parallel streams applicable for both synchronised and non synchronised java collections
-
 
 
 https://www.javainterviewpoint.com/anagram-program-in-java/
