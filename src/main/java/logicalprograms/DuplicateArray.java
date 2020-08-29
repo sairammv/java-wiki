@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
+package main.java.logicalprograms;
 
 public class DuplicateArray {
     public static void main(String args[]){

@@ -1,3 +1,5 @@
+package main.java.logicalprograms;
+
 public class FilledWithZeroAndone {
 
     public static void main(String args[]){
