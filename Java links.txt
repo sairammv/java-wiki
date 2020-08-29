@@ -1,0 +1,61 @@
+Java links written test
+
+https://www.sanfoundry.com/java-mcqs-constructors-garbage-collection/#:~:text=c)%20finalize()%20method%20is,10.
+
+https://dzone.com/articles/think-twice-using-java-8
+
+what is meant by cognitive or cyclometic code complexity in java
+
+https://dzone.com/articles/your-guide-to-java-streams-tutorials-and-articles
+
+permgen space has been replaced with which of these in java 8
+
+https://knowledge.broadcom.com/external/article/111486/about-maxpermsize-of-jvm-option.html#:~:text=In%20JDK%208.0%20the%20Permanent,will%20never%20get%20a%20java.
+
+https://dzone.com/articles/java-8-permgen-metaspace
+
+which is not terminal operation in java 8
+
+which method is used to randomize all elements in list in java
+
+which pattern works on data and action taken baseed on data provided in java
+
+an enum can extend another emum
+
+which is used for distributed tracing in microservies in java
+
+bebefits of service discovery mechanism in java
+
+service gateway acts as intermediate between server and client
+
+is circuit breaker  is microservice patterns
+
+https://microservices.io/patterns/observability/application-logging.html#:~:text=Pattern%3A%20Log%20aggregation&text=You%20have%20applied%20the%20Microservice,are%20running%20on%20multiple%20machines.&text=The%20log%20file%20contains%20errors%2C%20warnings%2C%20information%20and%20debug%20messages.
+
+https://patterns.arcitura.com/microservice-patterns/design_patterns/log_aggregator
+
+https://stackify.com/pair-programming-advantages/
+
+https://www.google.com/search?q=rgr+means+in+test+driven+deve&oq=rgr+means+in+test+driven+deve&aqs=chrome..69i57.5352j0j1&sourceid=chrome&ie=UTF-8
+
+https://www.google.com/search?q=what+is+meant+by+common+fork+join+thread+pool+in+java&oq=what+is+meant+by+common+fork+join+thread+pool+in+java&aqs=chrome..69i57.12309j0j1&sourceid=chrome&ie=UTF-8
+
+https://dzone.com/articles/dipping-into-java-8-streams
+
+http://tutorials.jenkov.com/java-util-concurrent/java-fork-and-join-forkjoinpool.html
+
+https://www.google.com/search?q=can+we+aply+java+streams+to+non+collection+classes+or+arrays&oq=can+we+aply+java+streams+to+non+collection+classes+or+arrays&aqs=chrome..69i57.14705j0j1&sourceid=chrome&ie=UTF-8
+
+https://www.geeksforgeeks.org/streams-arrays-java-8/
+
+https://www.geeksforgeeks.org/stream-in-java/
+
+https://dzone.com/articles/design-patterns-for-microservices
+
+
+https://dzone.com/articles/improving-microservices-reliability-with-the-two-p
+
+
+https://medium.com/@xoor/jwt-authentication-service-44658409e12c
+
+
