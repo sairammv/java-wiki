@@ -1,0 +1,179 @@
+Java questions
+
+customer - id,name,location,address,contact,email,noOfEmployees,mobileno
+
+1,jondoe
+2,jane
+3,bob
+
+product - id,name,color,length,width,height,vendor,price,discount,category
+
+1,bat,200$
+2,ball,55$
+3,gloves,20$
+
+order - id,productid,customerid,vendor,price,address
+
+1,1,1
+2,1,2
+3,1,1
+
+
+
+that shows all customers and their order amount
+
+
+select * from customers c, order o, product p
+  where o.productid 
+
+
+
+
+book, bkoo, oobk
+ifExists(facebook, book)
+ifExists(facebook, bkoo)
+4
+
+
+Boobook, bkoo
+
+
+ifExists(str1, str2)
+ifAnagram(string, string)
+
+that shows all customers and their order amount
+
+
+class Anagarams{
+
+
+    static boolean isAnagram(String mainString, String subString){
+
+     ifExists(mainString,subString){
+      return true;
+      }
+    }
+
+
+    static boolean ifExists(String mainString, String subString){
+
+
+        if()
+
+         
+    }
+
+
+
+	public static void main(String args[]){
+
+     Scanner scanner = new Scanner(System.in);
+     Scanner scanner = new Scanner(System.in);
+
+
+     String mainString = sc.nextLine();
+     String[] subStrings = sc.nextLine();
+
+      for(String subString: subStrings){
+         boolean result = isAnagram(mainString, subString);
+
+         if(result){
+           System.out.println(subString + "is anagram")
+         }
+
+
+      }
+
+
+	}
+}
+
+       for(String s : subStrings){
+
+          subChar = s.toCharArray();
+
+          for(Char sub: subChar){
+
+            int count = 0;
+
+             for(Char main:mainChar){
+
+                if(main == sub ){
+
+                 count++;
+                }
+
+                if(count == sub.lenght){
+                   System.out.println(s+ "is anagram")
+                }
+
+             }
+
+
+
+          }
+
+
+
+
+
+       }
+
+
+Blume global
+
+Is it possible to store same key with different values in Hashmat
+
+How do we improve performance of collections 
+
+Why scp
+
+Hibernate commit evict flush transaction property isolation and progagataion
+
+Is really parallel streams applicable for both synchronised and non synchronised java collections
+
+
+
+https://www.javainterviewpoint.com/anagram-program-in-java/
+
+
+1. Decomposition Patterns
+  a. Decompose by Business Capability
+  b. Decompose by Subdomain
+  c. Strangler Pattern
+2. Integration Patterns
+  a. API Gateway Pattern
+  b. Aggregator Pattern
+  c. Client-Side UI Composition Pattern
+3. Database Patterns
+  a. Database per Service
+  b. Shared Database per Service
+  c. Command Query Responsibility Segregation (CQRS)
+  d. Saga Pattern
+4. Observability Patterns
+  a. Log Aggregation
+  b. Performance Metrics
+  c. Distributed Tracing
+  d. Health Check
+5. Cross-Cutting Concern Patterns
+  a. External Configuration
+  b. Service Discovery Pattern
+  c. Circuit Breaker Pattern
+  d. Blue-Green Deployment Pattern
+
+stack overflow error
+
+
+synchronised and concurrent hashmap
+
+
+what is stackoverflowerror and when it will come
+
+
+fail fast and fail safe
+
+
+sort 0 and 1
+
+recursion for fibonacci
+
