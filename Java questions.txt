@@ -1,6 +1,5 @@
 Java questions
 
-
 Blume global
 
 Is it possible to store same key with different values in Hashmap
