@@ -59,3 +59,7 @@ https://dzone.com/articles/improving-microservices-reliability-with-the-two-p
 https://medium.com/@xoor/jwt-authentication-service-44658409e12c
 
 
+https://javarevisited.blogspot.com/2011/09/javalangoutofmemoryerror-permgen-space.html - For 2 solution of java.lang.OutOfMemoryError in Java
+
+
+udemy course for https://www.udemy.com/course/java-application-performance-and-memory-management/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-0TUmiaUMSBHavAURLGWugw&LSNPUBID=JVFxdTr9V80&utm_source=aff-campaign&utm_medium=udemyads
