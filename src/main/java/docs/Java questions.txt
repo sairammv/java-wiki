@@ -1,6 +1,49 @@
 Java questions
 
+publicis sapient
+
+can we declare abstract keyword with out abstract method for a class
+
+how set ensure duplicates are not adding to hashset is it checking equals or == while adding to put
+
+internal implementation of hashmap and whats the output if we are allowing duplicate keys or values to hashmap
+
+public void main signature
+
+differences between Optional.of and Optional.Nullable method in java 8
+
+items in priority queue entered in which order
+
+idempotent means
+
+autowired by type
+
+in heap element with greatest key is always in which node
+
+differences between map and flatmap
+
+Global logic
+
+query to know all the managers and corresponding employees in employee table
+
+solid principles
+
+design patterns
+
+differences between setter and constructor injection which one is preferred and why
+
+differences between singleton and prototype scope
+
+can we configure repository to service and what happens if we create multiple object to singleton is it going to create more than
+one instance
+
 Blume global
+
+Minimum number of coins that can generate all the values in the given range - java program
+
+about stale exception in hibernate
+
+what are the disadvantages observed in hibernate framework
 
 Is it possible to store same key with different values in Hashmap
 
@@ -81,7 +124,7 @@ class Anagarams{
 
 
 
-	public static void main(String args[]){
+   public static void main(String args[]){
 
      Scanner scanner = new Scanner(System.in);
      Scanner scanner = new Scanner(System.in);
@@ -101,7 +144,7 @@ class Anagarams{
       }
 
 
-	}
+   }
 }
 
        for(String s : subStrings){
@@ -149,6 +192,7 @@ what is stackoverflowerror and when it will come
 
 fail fast and fail safe
 
+functional and marker interfaces
 
 sort 0 and 1
 
@@ -181,4 +225,7 @@ recursion for fibonacci
   d. Blue-Green Deployment Pattern
 
 
-Zemoso question - https://www.nitinagrawal.com/zemosointerview.html
+Zemoso
+
+https://www.nitinagrawal.com/zemosointerview.html
+
