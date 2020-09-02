@@ -4,9 +4,15 @@ https://www.chegg.com/homework-help/questions-and-answers/john-gambles-casino-al
 
 https://www.youtube.com/watch?v=_0sLV_H9gIY&list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d&index=31
 
+
+
+Dinesh Varyani - Awesome for data structures linked list tutorials, some design patterns
+
 https://www.youtube.com/c/hubberspot/playlists
 
 https://www.hubberspot.com/2013/08/design-patterns-in-java.html
+
+
 
 https://www.udemy.com/course/visualizing-data-structures-and-algorithms-in-java/#instructor-1
 
@@ -17,4 +23,24 @@ https://javarevisited.blogspot.com/2016/06/design-vending-machine-in-java.html
 https://javarevisited.blogspot.com/2012/12/how-to-find-middle-element-of-linked-list-one-pass.html
 
 https://javarevisited.blogspot.com/2017/03/how-to-reverse-linked-list-in-java-using-iteration-and-recursion.html
+
+
+saga pattern
+
+https://dzone.com/articles/microservices-using-saga-pattern
+
+https://dzone.com/articles/microservices-integration-patterns-saga-pattern
+
+https://dzone.com/articles/saga-pattern-how-to-implement-business-transaction
+
+https://dzone.com/articles/saga-pattern-how-to-implement-business-transaction-1
+
+https://dzone.com/articles/microservices-and-the-saga-pattern-part-3
+
+
+Docker
+
+https://howtodoinjava.com/java/library/docker-hello-world-example/
+
+
 
