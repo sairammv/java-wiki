@@ -1,4 +1,4 @@
-package main.java.logicalprograms;
+package logicalprograms;
 
 public class ZemosoCasino {
 
