@@ -1,4 +1,4 @@
-package lists;
+package beingzero.lists;
 
 class ListNode {
     int value;

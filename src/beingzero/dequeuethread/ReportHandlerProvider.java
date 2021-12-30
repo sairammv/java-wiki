@@ -1,4 +1,4 @@
-package dequeuethread;
+package beingzero.dequeuethread;
 
 public class ReportHandlerProvider {
 
