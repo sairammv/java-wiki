@@ -1,4 +1,4 @@
-package matrix;
+package beingzero.matrix;
 
 import java.util.HashSet;
 import java.util.Scanner;

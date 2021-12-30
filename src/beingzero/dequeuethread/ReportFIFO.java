@@ -1,4 +1,4 @@
-package dequeuethread;
+package beingzero.dequeuethread;
 
 import java.util.ArrayDeque;
 

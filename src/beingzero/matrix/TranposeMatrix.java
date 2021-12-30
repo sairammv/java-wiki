@@ -1,4 +1,4 @@
-package matrix;
+package beingzero.matrix;
 
 public class TranposeMatrix {
     public static void main(String[] args) {

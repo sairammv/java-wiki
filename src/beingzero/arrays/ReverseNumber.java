@@ -1,4 +1,4 @@
-package arrays;
+package beingzero.arrays;
 
 import java.util.Scanner;
 
