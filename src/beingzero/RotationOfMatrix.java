@@ -1,3 +1,5 @@
+package beingzero;
+
 import java.util.Scanner;
 
 public class RotationOfMatrix {
