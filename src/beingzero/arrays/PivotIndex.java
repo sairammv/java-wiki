@@ -1,4 +1,4 @@
-package beingzero.arrays.prefixandsuffixproblems;
+package beingzero.arrays;
 
 public class PivotIndex {
     public static void main(String[] args) {

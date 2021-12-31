@@ -1,4 +1,4 @@
-package beingzero.arrays.prefixandsuffixproblems;
+package beingzero.arrays.prefixsuffixproblems;
 
 public class XORQueries {
     public static void main(String[] args) {

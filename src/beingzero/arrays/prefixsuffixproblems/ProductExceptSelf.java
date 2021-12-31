@@ -1,4 +1,4 @@
-package arrays.prefixsuffixproblems;
+package beingzero.arrays.prefixsuffixproblems;
 
 public class ProductExceptSelf {
     public static void main(String[] args) {

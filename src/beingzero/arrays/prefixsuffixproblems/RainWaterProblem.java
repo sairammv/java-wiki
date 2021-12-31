@@ -1,4 +1,4 @@
-package arrays.prefixsuffixproblems;
+package beingzero.arrays.prefixsuffixproblems;
 
 import java.util.Scanner;
 
