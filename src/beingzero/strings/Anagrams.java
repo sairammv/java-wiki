@@ -3,9 +3,7 @@ package beingzero.strings;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class WordMeaning {
-
-
+public class Anagrams {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int t=sc.nextInt();
@@ -32,7 +30,7 @@ public class WordMeaning {
             String res="True";
             for(int i=0;i<26;i++)
             {
-                if(s1.get((char)(97+i)).equals(s2.get((char)(97+i))))
+                if(!s1.get((char)(97+i)).equals(s2.get((char)(97+i))))
                 {
                     res="False";
                     break;
@@ -43,3 +41,15 @@ public class WordMeaning {
 
     }
 }
+
+    /* I/P O/P
+       4
+        a a
+        b h
+        stop post
+        hi hey
+        True
+        False
+        True
+        False
+        */
