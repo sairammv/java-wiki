@@ -1,8 +1,8 @@
-package beingzero;
+package beingzero.arrays;
 
 import java.util.*;
 
-public class Solution {
+public class LargestNumberFormedInArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int noOfTestcases = scanner.nextInt();

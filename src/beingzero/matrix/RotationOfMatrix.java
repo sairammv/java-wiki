@@ -1,4 +1,4 @@
-package beingzero;
+package beingzero.matrix;
 
 import java.util.Scanner;
 
@@ -49,3 +49,15 @@ public class RotationOfMatrix {
         }
     }
 }
+ /*
+        I/p O/p
+        1
+        3
+        1 2 3
+        4 5 6
+        7 8 9
+
+        1 4 7
+        2 5 8
+        3 6 9
+        */
