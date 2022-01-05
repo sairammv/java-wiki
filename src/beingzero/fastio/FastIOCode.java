@@ -6,44 +6,39 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class FastIOCode {
-    BufferedReader br;
-    StringTokenizer st;
+    BufferedReader bufferedReader;
+    StringTokenizer stringTokenizer;
 
     public FastIOCode() {
-        br = new BufferedReader(
+        bufferedReader = new BufferedReader(
                 new InputStreamReader(System.in));
     }
-
     String next() {
-        while (st == null || !st.hasMoreElements()) {
+        while (stringTokenizer == null || !stringTokenizer.hasMoreElements()) {
             try {
-                st = new StringTokenizer(br.readLine());
+                stringTokenizer = new StringTokenizer(bufferedReader.readLine());
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
-        return st.nextToken();
+        return stringTokenizer.nextToken();
     }
-
-    int nextInt() {
-        return Integer.parseInt(next());
-    }
-
-    long nextLong() {
-        return Long.parseLong(next());
-    }
-
-    double nextDouble() {
-        return Double.parseDouble(next());
-    }
-
     String nextLine() {
         String str = "";
         try {
-            str = br.readLine();
+            str = bufferedReader.readLine();
         } catch (IOException e) {
             e.printStackTrace();
         }
         return str;
+    }
+    int nextInt() {
+        return Integer.parseInt(next());
+    }
+    long nextLong() {
+        return Long.parseLong(next());
+    }
+    double nextDouble() {
+        return Double.parseDouble(next());
     }
 }
