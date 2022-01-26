@@ -1,68 +1,39 @@
 package beingzero.collectionframework;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.*;
 
 public class FrequencySort {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int testcases = sc.nextInt();
-        for (int k = 0; k < testcases; k++) {
+        int players = sc.nextInt();
+        sc.nextLine();
+        LinkedHashMap<String, String> hashMap = new LinkedHashMap<>();
+        for (int k = 0; k < players; k++) {
+            String[] input = sc.nextLine().split(" ");
+            hashMap.put(input[0], input[1]);
+        }
+        List<Map.Entry<String, String>> list
+                = new LinkedList<Map.Entry<String, String>>(hashMap.entrySet());
 
-            int arraySize = sc.nextInt();
-            int[] input = new int[arraySize];
-            for (int i = 0; i < arraySize; i++) {
-                input[i] = sc.nextInt();
-            }
-            Arrays.sort(input);
-            LinkedHashMap<Integer, Integer> hashMap = new LinkedHashMap<>();
-            for (int i = 0; i < arraySize; i++) {
-                if (hashMap.containsKey(input[i])) {
-                    hashMap.put(input[i], hashMap.get(input[i]) + 1);
-                } else {
-                    hashMap.put(input[i], 1);
-                }
-            }
+        Collections.sort(
+                list,
+                new Comparator<Map.Entry<String, String>>() {
+                    public int compare(
+                            Map.Entry<String, String> object1,
+                            Map.Entry<String, String> object2) {
+                        Integer v1 = (Integer.parseInt((String) object1.getValue()));
+                        Integer v2 = (Integer.parseInt((String) object2.getValue()));
 
-
-            List<Map.Entry<Integer, Integer> > list
-                    = new LinkedList<Map.Entry<Integer, Integer> >(
-                    hashMap.entrySet());
-
-            Collections.sort(
-                    list,
-                    new Comparator<Map.Entry<Integer, Integer> >() {
-                        public int compare(
-                                Map.Entry<Integer, Integer> object1,
-                                Map.Entry<Integer, Integer> object2)
-                        {
-                            return (object1.getValue())
-                                    .compareTo(object2.getValue());
+                        if(v1 == v2){
+                            return object1.getKey().compareTo(object2.getKey());
                         }
-                    });
 
-            for (Map.Entry<Integer, Integer> me : list) {
-                for (int s =0; s < me.getValue(); s++) {
-                    System.out.print(me.getKey()+" ");
-                }
-            }
-            System.out.println();
+                        return v2.compareTo(v1);
+                    }
+                });
+        for (Map.Entry<String, String> me : list) {
+            System.out.println(me.getKey() + " " + me.getValue());
         }
     }
 }
 
-/*
-
-    Sample Input 0
-
-        2
-        6
-        4 -2 10 12 -8 4
-        8
-        176 -272 -272 -45 269 -327 -945 176
-        Sample Output 0
-
-        -8 -2 10 12 4 4
-        -945 -327 -45 269 -272 -272 176 176 */

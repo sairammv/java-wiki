@@ -1,8 +1,9 @@
 package beingzero.arrays;
 
+import java.io.Serializable;
 import java.util.*;
 
-public class LargestNumberFormedInArray {
+public class LargestNumberFormedInArray implements Comparable, Serializable {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int noOfTestcases = scanner.nextInt();
@@ -46,4 +47,8 @@ public class LargestNumberFormedInArray {
     }
 
 
+    @Override
+    public int compareTo(Object o) {
+        return 0;
+    }
 }

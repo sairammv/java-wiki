@@ -1,4 +1,4 @@
-package maths;
+package beingzero.maths;
 
 import java.util.Scanner;
 
