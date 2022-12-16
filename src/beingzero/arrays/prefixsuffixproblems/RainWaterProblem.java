@@ -3,7 +3,7 @@ package beingzero.arrays.prefixsuffixproblems;
 import java.util.Scanner;
 
 class RainWaterProblem {
-    public static void main(String[] args) throws java.lang.Exception {
+    public static void main(String[] args)  {
         Scanner scanner = new Scanner(System.in);
 
         int noOfTestCases = scanner.nextInt();
@@ -32,11 +32,7 @@ class RainWaterProblem {
             }
 
             for (int i = 0; i < arrayLength; i++) {
-                if (suffixArray[i] < prefixArray[i]) {
-                    array[i] = suffixArray[i] - array[i];
-                } else {
-                    array[i] = prefixArray[i] - array[i];
-                }
+                array[i] = Math.min(suffixArray[i], prefixArray[i]) - array[i];
             }
 
             for (int j = 0; j < arrayLength; j++) {
@@ -46,3 +42,4 @@ class RainWaterProblem {
         }
     }
 }
+

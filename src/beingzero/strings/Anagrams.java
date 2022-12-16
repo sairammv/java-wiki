@@ -1,6 +1,7 @@
 package beingzero.strings;
 
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Anagrams {
@@ -17,8 +18,8 @@ public class Anagrams {
                 s1.put(cr,0);
                 s2.put(cr,0);
             }
-            String st1=sc.next();
-            String st2=sc.next();
+            String st1=sc.next().toLowerCase();
+            String st2=sc.next().toLowerCase();
             for(int i=0;i<st1.length();i++)
             {
                 s1.put(st1.charAt(i),s1.get(st1.charAt(i))+1);
